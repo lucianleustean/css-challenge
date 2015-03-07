@@ -1,0 +1,53 @@
+$accent_color:          #03a9f4
+$primary_color:         #3f51b5
+$light_primary_color:   #c5cae9
+$text_color:            #ffffff
+$primary_text_color:    #333333
+$secondary_text_color:  #727272
+$divider_color:         #b6b6b6
+$margin: 28px
+
+$font_size_medium:      15px
+$font_size_large:       30px
+$font_size_xlarge:      55px
+
+*
+  margin: 0
+  padding: 0
+
+body
+  color: $primary_text_color
+
+  h1, h2, h3, h4, h5, button
+    font-family: 'Droid Sans', sans-serif
+    text-align: center
+  h1
+    font-size: $font_size_xlarge
+  h2
+    font-size: $font_size_large
+  p
+    font-family: 'Droid Serif', serif
+
+  section#header
+    background-color: $primary_color
+    color: $text_color
+
+    article
+      padding: 6*$margin 10px 3*$margin 10px
+      max-width: 940px
+      margin: auto
+
+      p
+        color: $light_primary_color
+        padding: 15px 30px
+        text-align: center
+
+      button
+        background-color: $accent_color
+        border: 0
+        color: $text_color
+        display: block
+        font-size: $font_size_medium
+        margin: auto
+        margin-top: 2*$margin
+        padding: $margin/3 $margin
