@@ -50,3 +50,32 @@ body {
         padding-right: 10px; }
     body section#info article.second p {
       padding-left: 10px; }
+  body section#customer {
+    background-color: #b6b6b6; }
+    body section#customer header {
+      color: #ffffff;
+      padding: 84px 0; }
+    body section#customer article {
+      background-color: #fff;
+      width: 29%;
+      display: inline-block;
+      margin: 14px; }
+      body section#customer article img {
+        display: block;
+        border: solid #03a9f4 7px;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+        margin: 56px auto 28px auto; }
+      body section#customer article h4 {
+        font-weight: 100;
+        letter-spacing: 3px;
+        text-transform: uppercase; }
+      body section#customer article h5 {
+        font-weight: 100;
+        font-style: italic; }
+      body section#customer article p {
+        text-align: center;
+        letter-spacing: 1px;
+        padding: 28px;
+        margin-bottom: 28px; }
