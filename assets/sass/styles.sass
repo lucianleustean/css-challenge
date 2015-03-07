@@ -15,6 +15,11 @@ $font_size_xlarge:      55px
   margin: 0
   padding: 0
 
+.content
+  max-width: 940px
+  margin: auto
+  padding-bottom: 2*$margin
+
 body
   color: $primary_text_color
 
@@ -51,3 +56,21 @@ body
         margin: auto
         margin-top: 2*$margin
         padding: $margin/3 $margin
+
+  section#info
+    header
+      padding: 3*$margin 0 2*$margin 0
+
+    article
+      display: inline-block
+      text-align: center
+      width: 49%
+
+      &.first
+        float: left
+
+        p
+          padding-right: 10px
+
+      &.second p
+        padding-left: 10px

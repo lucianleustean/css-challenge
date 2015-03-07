@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0; }
 
+.content {
+  max-width: 940px;
+  margin: auto;
+  padding-bottom: 56px; }
+
 body {
   color: #333333; }
   body h1, body h2, body h3, body h4, body h5, body button {
@@ -33,3 +38,15 @@ body {
         margin: auto;
         margin-top: 56px;
         padding: 9.33333px 28px; }
+  body section#info header {
+    padding: 84px 0 56px 0; }
+  body section#info article {
+    display: inline-block;
+    text-align: center;
+    width: 49%; }
+    body section#info article.first {
+      float: left; }
+      body section#info article.first p {
+        padding-right: 10px; }
+    body section#info article.second p {
+      padding-left: 10px; }
