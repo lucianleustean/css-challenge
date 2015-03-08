@@ -109,3 +109,28 @@ body
         letter-spacing: 1px
         padding: $margin
         margin-bottom: $margin
+
+@media only screen and (max-width: 768px)
+  .content
+    padding: 10px
+    padding-bottom: 2*$margin
+
+  body
+    section#info
+      article
+        width: 100%
+
+        &.first p
+          padding: 0
+
+        &.second p
+          padding: 20px 0 0 0
+
+    section#customer
+      article
+        margin: 10px 0
+        width: 100%
+
+        img
+          max-width: 60%
+          width: 280px

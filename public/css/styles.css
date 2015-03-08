@@ -79,3 +79,21 @@ body {
         letter-spacing: 1px;
         padding: 28px;
         margin-bottom: 28px; }
+
+@media only screen and (max-width: 768px) {
+  .content {
+    padding: 10px;
+    padding-bottom: 56px; }
+
+  body section#info article {
+    width: 100%; }
+    body section#info article.first p {
+      padding: 0; }
+    body section#info article.second p {
+      padding: 20px 0 0 0; }
+  body section#customer article {
+    margin: 10px 0;
+    width: 100%; }
+    body section#customer article img {
+      max-width: 60%;
+      width: 280px; } }
