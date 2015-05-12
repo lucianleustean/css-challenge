@@ -9,14 +9,15 @@
   %body
 
     %section#header
-      %article
-        %header
-          %h1 Welcome to my latest experiment
-        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-        %button Try Now
+      .container
+        %article
+          %header
+            %h1 Welcome to my latest experiment
+          %p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          %button Try Now
 
-    %section#info
-      .content
+    %section#features.wrap
+      .container
         %header
           %h2 Have a look at our features
         %article.first
@@ -24,28 +25,31 @@
         %article.second
           %p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
 
-    %section#customer
-      .content
+    %section#testimonials.wrap
+      .container
         %header
           %h2 This is what our customers say
         %article
-          %img{:src => "images/avatar1.jpg"}/
-          %h4
-            Quincy Davies
-            %h5
-              Lorem ipsum
-          %p Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui.
+          .container
+            %img{:src => "images/avatar1.jpg"}/
+            %h4
+              Quincy Davies
+              %h5
+                Lorem ipsum
+            %p Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui.
         %article
-          %img{:src => "images/avatar2.jpg"}/
-          %h4
-            Hilde Akdemir
-            %h5
-              Lorem ipsum
-          %p Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui.
+          .container
+            %img{:src => "images/avatar2.jpg"}/
+            %h4
+              Hilde Akdemir
+              %h5
+                Lorem ipsum
+            %p Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui.
         %article
-          %img{:src => "images/avatar3.jpg"}/
-          %h4
-            Neo Tromp
-            %h5
-              Lorem ipsum
-          %p Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui.
+          .container
+            %img{:src => "images/avatar3.jpg"}/
+            %h4
+              Neo Tromp
+              %h5
+                Lorem ipsum
+            %p Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui.
