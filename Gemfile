@@ -7,4 +7,4 @@ gem 'compass', '~> 1.0.3'
 
 gem 'guard',      '~> 2.12.4'
 gem 'guard-haml', '~> 1.1.2'
-gem 'guard-sass', '~> 1.6.0'
+gem 'guard-compass', '~> 1.1.0'
