@@ -1,0 +1,22 @@
+.container
+  @include container
+
+#features
+  article
+    @include span(6 of map-get($susy, columns))
+    &:last-child
+      @include last
+
+#products
+  article:nth-of-type(-n + 2)
+    @include span(6 of map-get($susy, columns))
+  article:nth-of-type(3)
+    @include break
+  article:nth-of-type(n + 3)
+    @include span(4 of map-get($susy, columns))
+
+#testimonials
+  article
+    @include span(4 of map-get($susy, columns))
+    &:last-child
+      @include last
