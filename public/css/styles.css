@@ -1,99 +1,345 @@
+@import url("http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700,400italic,700italic");
+/* line 5, ../../../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../../assets/sass/_layout.sass */
+.container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../.rvm/gems/ruby-2.2.0/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 5, ../../assets/sass/_layout.sass */
+#features article {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+/* line 7, ../../assets/sass/_layout.sass */
+#features article:last-child {
+  float: right;
+}
+
+/* line 11, ../../assets/sass/_layout.sass */
+#products article:nth-of-type(-n + 2) {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+/* line 13, ../../assets/sass/_layout.sass */
+#products article:nth-of-type(3) {
+  clear: both;
+}
+/* line 15, ../../assets/sass/_layout.sass */
+#products article:nth-of-type(n + 3) {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33.33333%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+/* line 19, ../../assets/sass/_layout.sass */
+#testimonials article {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33.33333%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+/* line 21, ../../assets/sass/_layout.sass */
+#testimonials article:last-child {
+  float: right;
+}
+
+/* line 106, ../../../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 125%;
+  line-height: 1.4em;
+}
+
+/* line 9, ../../assets/sass/styles.sass */
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
+/* line 13, ../../assets/sass/styles.sass */
 .content {
+  padding-bottom: 56px;
+}
+
+/* line 16, ../../assets/sass/styles.sass */
+body {
+  color: #333333;
+}
+/* line 19, ../../assets/sass/styles.sass */
+body h1, body h2, body h3, body h4, body h5, body button {
+  font-family: "Droid Sans", Verdana, Arial, sans-serif;
+  text-align: center;
+}
+/* line 22, ../../assets/sass/styles.sass */
+body h1 {
+  font-size: 55px;
+}
+/* line 24, ../../assets/sass/styles.sass */
+body h2 {
+  font-size: 40px;
+}
+/* line 26, ../../assets/sass/styles.sass */
+body p {
+  font-family: "Droid Serif", Times, "Times New Roman", serif;
+}
+/* line 29, ../../assets/sass/styles.sass */
+body section#header {
+  background-color: #3f51b5;
+  color: #ffffff;
+}
+/* line 33, ../../assets/sass/styles.sass */
+body section#header article {
+  padding: 168px 10px 84px 10px;
   max-width: 940px;
   margin: auto;
-  padding-bottom: 56px; }
-
-body {
-  color: #333333; }
-  body h1, body h2, body h3, body h4, body h5, body button {
-    font-family: "Droid Sans", sans-serif;
-    text-align: center; }
-  body h1 {
-    font-size: 55px; }
-  body h2 {
-    font-size: 30px; }
-  body p {
-    font-family: "Droid Serif", serif; }
-  body section#header {
-    background-color: #3f51b5;
-    color: #ffffff; }
-    body section#header article {
-      padding: 168px 10px 84px 10px;
-      max-width: 940px;
-      margin: auto; }
-      body section#header article p {
-        color: #c5cae9;
-        padding: 15px 30px;
-        text-align: center; }
-      body section#header article button {
-        background-color: #03a9f4;
-        border: 0;
-        color: #ffffff;
-        display: block;
-        font-size: 15px;
-        margin: auto;
-        margin-top: 56px;
-        padding: 9.33333px 28px; }
-  body section#info header {
-    padding: 84px 0 56px 0; }
-  body section#info article {
-    display: inline-block;
-    text-align: center;
-    width: 49%; }
-    body section#info article.first {
-      float: left; }
-      body section#info article.first p {
-        padding-right: 10px; }
-    body section#info article.second p {
-      padding-left: 10px; }
-  body section#customer {
-    background-color: #b6b6b6; }
-    body section#customer header {
-      color: #ffffff;
-      padding: 84px 0; }
-    body section#customer article {
-      background-color: #fff;
-      width: 29%;
-      display: inline-block;
-      margin: 14px; }
-      body section#customer article img {
-        display: block;
-        border: solid #03a9f4 7px;
-        border-radius: 150px;
-        -webkit-border-radius: 150px;
-        -moz-border-radius: 150px;
-        margin: 56px auto 28px auto; }
-      body section#customer article h4 {
-        font-weight: 100;
-        letter-spacing: 3px;
-        text-transform: uppercase; }
-      body section#customer article h5 {
-        font-weight: 100;
-        font-style: italic; }
-      body section#customer article p {
-        text-align: center;
-        letter-spacing: 1px;
-        padding: 28px;
-        margin-bottom: 28px; }
+}
+/* line 38, ../../assets/sass/styles.sass */
+body section#header article p {
+  color: #c5cae9;
+  padding: 15px 30px;
+  text-align: center;
+}
+/* line 43, ../../assets/sass/styles.sass */
+body section#header article button {
+  background-color: #03a9f4;
+  border: 0;
+  color: #ffffff;
+  display: block;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 56px;
+  padding: 9.33333px 28px;
+}
+/* line 53, ../../assets/sass/styles.sass */
+body section#features {
+  text-align: center;
+  margin-top: 0em;
+  padding-top: 4.2em;
+  padding-bottom: 4.2em;
+  margin-bottom: 0em;
+}
+/* line 56, ../../assets/sass/styles.sass */
+body section#features h2 {
+  margin-bottom: 1.4em;
+}
+/* line 59, ../../assets/sass/styles.sass */
+body section#testimonials {
+  background-color: #03a9f4;
+  margin-top: 0em;
+  padding-top: 4.2em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+/* line 63, ../../assets/sass/styles.sass */
+body section#testimonials header {
+  color: #ffffff;
+}
+/* line 65, ../../assets/sass/styles.sass */
+body section#testimonials header h2 {
+  margin-bottom: 2.1em;
+}
+/* line 68, ../../assets/sass/styles.sass */
+body section#testimonials article .container {
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 0em;
+  padding-top: 2.8em;
+  padding-bottom: 2.8em;
+  margin-bottom: 2.8em;
+}
+/* line 73, ../../assets/sass/styles.sass */
+body section#testimonials article .container img {
+  border: 8px solid #03a9f4;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  height: 6.2em;
+}
+/* line 78, ../../assets/sass/styles.sass */
+body section#testimonials article .container h4 {
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: 1em;
+  line-height: 1.4em;
+  margin-top: 1.4em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+  text-transform: uppercase;
+}
+/* line 85, ../../assets/sass/styles.sass */
+body section#testimonials article .container h5 {
+  font-style: italic;
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.4em;
+}
+/* line 89, ../../assets/sass/styles.sass */
+body section#testimonials article .container p {
+  color: #727272;
+}
+/* line 92, ../../assets/sass/styles.sass */
+body section#products {
+  background-color: #b6b6b6;
+  margin-top: 0em;
+  padding-top: 4.2em;
+  padding-bottom: 4.2em;
+  margin-bottom: 0em;
+}
+/* line 96, ../../assets/sass/styles.sass */
+body section#products h2 {
+  text-align: center;
+  margin-bottom: 1.4em;
+}
+/* line 100, ../../assets/sass/styles.sass */
+body section#products article {
+  text-align: center;
+  color: #ffffff;
+}
+/* line 104, ../../assets/sass/styles.sass */
+body section#products article .container {
+  margin-top: 1.4em;
+  padding-top: 2.8em;
+  padding-bottom: 2.8em;
+  margin-bottom: 0em;
+}
+/* line 110, ../../assets/sass/styles.sass */
+body section#products article:nth-of-type(1) .container {
+  background-color: red;
+}
+/* line 113, ../../assets/sass/styles.sass */
+body section#products article:nth-of-type(2) .container {
+  background-color: #8cc252;
+}
+/* line 116, ../../assets/sass/styles.sass */
+body section#products article:nth-of-type(3) .container {
+  background-color: #cdda48;
+}
+/* line 119, ../../assets/sass/styles.sass */
+body section#products article:nth-of-type(4) .container {
+  background-color: #1daaf1;
+}
+/* line 122, ../../assets/sass/styles.sass */
+body section#products article:nth-of-type(5) .container {
+  background-color: #fc582f;
+}
 
 @media only screen and (max-width: 768px) {
+  /* line 126, ../../assets/sass/styles.sass */
   .content {
     padding: 10px;
-    padding-bottom: 56px; }
+    padding-bottom: 56px;
+  }
 
+  /* line 132, ../../assets/sass/styles.sass */
   body section#info article {
-    width: 100%; }
-    body section#info article.first p {
-      padding: 0; }
-    body section#info article.second p {
-      padding: 20px 0 0 0; }
+    width: 100%;
+  }
+  /* line 135, ../../assets/sass/styles.sass */
+  body section#info article.first p {
+    padding: 0;
+  }
+  /* line 138, ../../assets/sass/styles.sass */
+  body section#info article.second p {
+    padding: 20px 0 0 0;
+  }
+  /* line 142, ../../assets/sass/styles.sass */
   body section#customer article {
     margin: 10px 0;
-    width: 100%; }
-    body section#customer article img {
-      max-width: 60%;
-      width: 280px; } }
+    width: 100%;
+  }
+  /* line 146, ../../assets/sass/styles.sass */
+  body section#customer article img {
+    max-width: 60%;
+    width: 280px;
+  }
+}

@@ -35,4 +35,6 @@ guard :haml, input: 'assets', output: 'public', run_at_start: true do
   watch %r{^src/assets/.+(\.html\.haml)}
 end
 
-guard 'sass', :input => 'assets/sass', :output => 'public/css', :all_on_start => true
+guard :compass, configuration_file: 'config.rb', compile_on_start: true do
+  watch(%r{^src/assets/sass\/.*\.sass$})
+end
